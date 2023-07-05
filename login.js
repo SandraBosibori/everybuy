@@ -1,0 +1,1 @@
+const username= localStorage.setItem('username', JSON.stringify(username))

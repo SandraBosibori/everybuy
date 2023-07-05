@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    
+}
+
+.top{
+    width: 100%;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./waves.png');
+        .headbox{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+                  
+        }
+    
+        .nav1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: larger;
+            font-weight: bold;
+            line-height: 38px;
+            color: black;
+            cursor: pointer;
+
+            .home{
+                margin: 20px;
+                text-decoration: none;
+            }
+
+            .about{
+                margin: 20px;
+            }
+
+        }
+}
+
+
+.middle{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+.bottom{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:pink;
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+    
+        .ham{
+            font-size: 30px;
+            margin: 5px;
+            .nav3{
+                align-items: end;
+                justify-content: space-evenly;
+                color: black;
+                font-size: large;
+                display: none;
+            }
+        }
+        
+    }
+}
+
+.nav3{
+    display: none;
+}
+
+.baby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 50px;
+    height: 40px;
+}
+
+.home:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.about:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.home:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.contact:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.account:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.cart:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.help:hover{
+    color:orangered ;
+    transition: 0.2s;
+}
+
+.cart{
+    text-decoration: none;
+    color: black;
+}
+.cartNum{
+    background-image: url('<i class="fa-light fa-circle"></i>');
+}
+
+.account{
+    text-decoration: none;
+    color:black; 
+}
+
+.input{
+    height: 35px;
+    width: 300px;
+    
+}
+
+.btn1{
+    height: 35px;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+
+}
+
+.small{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 30px;
+    background-color:orangered  ;
+    color:black;
+    font-size: larger;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+.container1{
+    display: none;
+}
+
+.categories:hover{
+    color: white;
+
+}
+
+.sale:hover{
+    color: white;
+}
+
+.featured:hover{
+    color: white;
+}
+
+.hidden{
+display: none;
+
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+}
+
+.categoryTitle{
+    list-style-type: none;
+}
+
+.productImage{
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >*{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        
+    }
+}
+
+/* .container1{
+    display: none;
+} */
+
+.things{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    .item{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color:rgb(18, 213, 213)  ;
+        margin: 10px;
+        border-radius: 5px;
+        align-items: center;
+    }
+}    
+/* .productImage{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}           */
+    
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .socials{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
